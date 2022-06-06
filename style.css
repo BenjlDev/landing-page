@@ -1,0 +1,129 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  padding-left: 120px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 20px;
+}
+
+.nav-links {
+  color: #e5e7eb;
+  font-size: 18px;
+  list-style-type: none;
+  display: flex;
+  padding-right: 220px;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.header {
+  background-color: #1f2937;
+}
+
+.hero {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.subhero {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 120px;
+}
+
+.signup {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-weight: bolder;
+  border-radius: 8px;
+  width: 100px;
+  height: 32px;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.header-text {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+}
+
+.gbox,
+.mbox,
+.dbox,
+.obox {
+  width: 200px;
+  height: 200px;
+  border: 4px solid #3882f6;
+  border-radius: 8px;
+  margin: 0;
+  padding: 0;
+}
+
+.gbox img {
+  width: 190px;
+  height: 190px;
+}
+
+.dbox img {
+  width: 190px;
+  height: 190px;
+}
+
+.mbox img {
+  width: 190px;
+  height: 190px;
+}
+
+.obox img {
+  width: 190px;
+  height: 190px;
+}
+
+.imgdescrip {
+  font-size: 18px;
+}
